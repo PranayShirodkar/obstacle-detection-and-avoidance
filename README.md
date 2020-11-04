@@ -42,7 +42,7 @@ Finally, take the top down view of the remaining point cloud to obtain a 2D obst
 
 Refer to the [Final Report](./reports/Obstacle_Avoidance_for_an_Unmanned_Surface_Vehicle.pdf) for full details.
 
-Using the following obstacle environment:
+Using the following obstacle environment (blue is valid path, black is obstacle, red is start point, green is end point):
 
 <img src="./reports/simulated_obstacle_map.png" alt="drawing" width="300"/>
 
@@ -50,6 +50,6 @@ If A* algorithm is used for shortest path planning:
 
 <img src="./reports/A_star_path.png" alt="drawing" width="300"/>
 
-A* algorithm does not consider the proximity of the path to obstacles. In a maritime environment the USV should maintain a safe distance from obstacles. For this we use Voronoi diagrams to find safe paths (safe paths in blue, unsafe paths in grey), and Dijkstra path planning to find the shortest path available:
+A* algorithm does not consider the proximity of the path to obstacles. In a maritime environment the USV should maintain a safe distance from obstacles. For this we use Voronoi diagrams to find safe paths (blue is safe path, grey is unsafe path), and Dijkstra path planning to find the shortest path available:
 
 <img src="./reports/VD_path.png" alt="drawing" width="300"/>
