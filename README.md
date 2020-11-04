@@ -1,8 +1,8 @@
 # Obstacle Detection and Avoidance for an Unmanned Surface Vehicle
 
-![](USV_Sharky.jpg)
+<img src="./reports/USV_Sharky.jpg" alt="drawing" width="400"/>
 
-The objective of this project is to equip the above unmanned surface vehicle (USV) with the ability to operate autonomously. This project contains 2 sections:
+The objective of this project is to equip the above unmanned surface vehicle (USV) with autonomous operation capabilities. This project contains 2 sections:
   1. obstacle detection using stereo vision and point cloud processing
   1. path planning using Voronoi-Dijkstra algorithm
 
