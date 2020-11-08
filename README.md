@@ -1,4 +1,5 @@
 # Obstacle Detection and Avoidance for an Unmanned Surface Vehicle
+Pranay Shirodkar's Thesis, National University of Singapore (B.Eng. 2017)
 
 <img src="./reports/USV_Sharky.jpg" alt="drawing" width="400"/>
 

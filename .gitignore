@@ -83,3 +83,5 @@ CATKIN_IGNORE
 *.exe
 *.out
 *.app
+
+*.docx
